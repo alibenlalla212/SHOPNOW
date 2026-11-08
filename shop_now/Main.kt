@@ -2,20 +2,6 @@ package com.example.shopnnow
 
 import java.io.File
 
-fun main() {
-    jalon2a()
-    jalon2b()
-    jalon3()
-    jalon4()
-    partie2()
-    partie3()
-    partie4a()
-    partie4b()
-    bonus1()
-    bonus2()
-    bonus3()
-}
-
 fun jalon2a() {
     println("Jalon 2.a")
     val laptop = ProduitElectronique("E1", "Laptop", 5000.0, 10, 24)
@@ -328,4 +314,17 @@ fun bonus3() {
     val r: Remisable = laptop
     r.appliquerRemise(20.0)
     println(laptop.prixHT)
+}
+fun main() {
+    jalon2a()
+    jalon2b()
+    jalon3()
+    jalon4()
+    partie2()
+    partie3()
+    partie4a()
+    partie4b()
+    bonus1()
+    bonus2()
+    bonus3()
 }
